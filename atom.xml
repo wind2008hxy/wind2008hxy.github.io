@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>wind2008hxy&#39;s blog</title>
+  
+  <subtitle>“阳光，空气，水。”</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://wind2008hxy.github.io/"/>
+  <updated>2017-11-28T07:43:13.838Z</updated>
+  <id>http://wind2008hxy.github.io/</id>
+  
+  <author>
+    <name>wind2008hxy</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>What’s New in Python 2.7 notes</title>
+    <link href="http://wind2008hxy.github.io/2017/11/28/What%E2%80%99s-New-in-Python-2-7-notes/"/>
+    <id>http://wind2008hxy.github.io/2017/11/28/What’s-New-in-Python-2-7-notes/</id>
+    <published>2017-11-28T02:47:44.000Z</published>
+    <updated>2017-11-28T07:43:13.838Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="阅读链接"><a href="#阅读链接" class="headerlink" title="阅读链接"></a>阅读链接</h2><p><a href="https://docs.python.org/2/whatsnew/2.7.html" target="_blank" rel="noopener">What’s New in Python 2.7</a></p><h2 id="阅读前言"><a href="#阅读前言" class="headerlink" title="阅读前言"></a>阅读前言</h2><p>对python所知甚少，英语不好，只好一点点地读和做些记录。</p><h2 id="重点关注模块"><a href="#重点关注模块" class="headerlink" title="重点关注模块"></a>重点关注模块</h2><p>三个模块需要留意：<a href="https://docs.python.org/2/library/unittest.html#module-unittest" target="_blank" rel="noopener"><code>unittest</code></a>、<a href="https://docs.python.org/2/library/argparse.html#module-argparse" target="_blank" rel="noopener"><code>argparse</code></a>、<a href="https://docs.python.org/2/library/collections.html#module-collections" target="_blank" rel="noopener"><code>collections</code></a></p><p><code>unittest source code</code> <a href="https://github.com/python/cpython/tree/2.7/Lib/unittest" target="_blank" rel="noopener">Lib/unittest</a></p><p><code>argparse source code</code> <a href="https://github.com/python/cpython/blob/2.7/Lib/argparse.py" target="_blank" rel="noopener">Lib/argparse.py</a></p><p><code>collections source code</code> <a href="https://github.com/python/cpython/blob/2.7/Lib/collections.py" target="_blank" rel="noopener">Lib/collections.py</a></p><h2 id="Python-2-x-的未来"><a href="#Python-2-x-的未来" class="headerlink" title="Python 2.x 的未来"></a>Python 2.x 的未来</h2><p>python 2.x 支持到2020年，应该尽快迁移到python 3。<a href="https://docs.python.org/2/howto/pyporting.html#pyporting-howto" target="_blank" rel="noopener">如何迁移官方推荐文档</a></p><h2 id="延伸阅读"><a href="#延伸阅读" class="headerlink" title="延伸阅读"></a>延伸阅读</h2><ul><li><p><a href="https://packaging.python.org/" target="_blank" rel="noopener">Python Packaging User Guide</a></p></li><li><p><a href="https://docs.python.org/2/library/index.html" target="_blank" rel="noopener">The Python Standard Library</a></p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;阅读链接&quot;&gt;&lt;a href=&quot;#阅读链接&quot; class=&quot;headerlink&quot; title=&quot;阅读链接&quot;&gt;&lt;/a&gt;阅读链接&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://docs.python.org/2/whatsnew/2.7.html&quot; target=&quot;
+      
+    
+    </summary>
+    
+      <category term="technology" scheme="http://wind2008hxy.github.io/categories/technology/"/>
+    
+    
+      <category term="python" scheme="http://wind2008hxy.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>了解 python 编码</title>
+    <link href="http://wind2008hxy.github.io/2017/11/27/python-ascii-and-unicode/"/>
+    <id>http://wind2008hxy.github.io/2017/11/27/python-ascii-and-unicode/</id>
+    <published>2017-11-27T09:26:01.000Z</published>
+    <updated>2017-11-28T02:39:19.959Z</updated>
+    
+    <content type="html"><![CDATA[<p>在阅读python 2.0 <a href="https://docs.python.org/2/whatsnew/2.0.html" target="_blank" rel="noopener">what’s new</a>中看到从python 2.0开始增加一个新数据结构，Unicode strings。所以想着整理python 字符串编码的链接（没错目前就只有链接），引用资料：<br><a href="http://wklken.me/posts/2013/08/31/python-extra-coding-intro.html" target="_blank" rel="noopener">PYTHON-进阶-编码处理小结</a><br><a href="http://pycoders-weekly-chinese.readthedocs.io/en/latest/issue5/unipain.html" target="_blank" rel="noopener">Unicode之痛</a><br><a href="http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html" target="_blank" rel="noopener">字符编码笔记：ASCII，Unicode 和 UTF-8</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;在阅读python 2.0 &lt;a href=&quot;https://docs.python.org/2/whatsnew/2.0.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;what’s new&lt;/a&gt;中看到从python 2.0开始增加一个新数据结
+      
+    
+    </summary>
+    
+      <category term="technology" scheme="http://wind2008hxy.github.io/categories/technology/"/>
+    
+    
+      <category term="python" scheme="http://wind2008hxy.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python 学习</title>
+    <link href="http://wind2008hxy.github.io/2017/11/09/learn-python/"/>
+    <id>http://wind2008hxy.github.io/2017/11/09/learn-python/</id>
+    <published>2017-11-09T08:14:16.000Z</published>
+    <updated>2017-11-28T06:31:05.464Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="官方教程"><a href="#官方教程" class="headerlink" title="官方教程"></a>官方教程</h2><p><a href="https://docs.python.org/2.7/tutorial/index.html" target="_blank" rel="noopener">https://docs.python.org/2.7/tutorial/index.html</a></p><p><a href="https://docs.python.org/3.6/tutorial/index.html" target="_blank" rel="noopener">https://docs.python.org/3.6/tutorial/index.html</a></p><p>读文档中，后续更新。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;官方教程&quot;&gt;&lt;a href=&quot;#官方教程&quot; class=&quot;headerlink&quot; title=&quot;官方教程&quot;&gt;&lt;/a&gt;官方教程&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://docs.python.org/2.7/tutorial/index.html&quot; targ
+      
+    
+    </summary>
+    
+      <category term="technology" scheme="http://wind2008hxy.github.io/categories/technology/"/>
+    
+    
+      <category term="python" scheme="http://wind2008hxy.github.io/tags/python/"/>
+    
+  </entry>
+  
+</feed>
